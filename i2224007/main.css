@@ -1,0 +1,59 @@
+body {
+    background: #efefef;
+}
+
+
+.menu {
+    display: flex;
+    list-style: none;
+}
+
+.menu li {
+    margin: 16px;
+}
+
+.wrap {
+    max-width: 600px;
+    margin: auto;
+    background: #ffffff;
+}
+
+@media screen and (max-width:480px) {
+
+    h1 {
+        color: brown;
+    }
+
+    body {
+        background: yellow;
+    }
+
+}
+
+.card {
+    max-width: 300px;
+    margin: 24px;
+    border: 1px #000000 solid;
+
+}
+
+.card-wrap {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+@media screen(max-width:480px) {
+    h1 {
+        color: brown;
+    }
+
+    body {
+        background: yellow;
+    }
+
+    .card {
+        flex-
+    }
+}
+}
